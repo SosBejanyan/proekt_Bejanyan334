@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="InvalidConnection" xml:space="preserve">
+    <value>Проверьте правильность параметров подключения</value>
+  </data>
+  <data name="NoMadeConnection" xml:space="preserve">
+    <value>Соединение не было установлено,
+проверьте правильность параметров подкючения
+и повторите попытку.</value>
+  </data>
+  <data name="NotDecimal" xml:space="preserve">
+    <value>Введенная страка не представляет десятичную дробь</value>
+  </data>
+  <data name="NotUnique" xml:space="preserve">
+    <value>Произошла ошибка добавления.
+Проверьте правильность введенных данных
+и отсутствие дублирующихся записей
+в уникальные столбцы таблицы</value>
+  </data>
+  <data name="NullField" xml:space="preserve">
+    <value>Одно из полей было пусто.
+Проверьте, ввели ли Вы
+Все необходимые данные.</value>
+  </data>
+  <data name="SqlRestore" xml:space="preserve">
+    <value>-- phpMyAdmin SQL Dump
+-- version 4.9.2
+-- https://www.phpmyadmin.net/
+--
+-- Хост: 127.0.0.1:3308
+-- Время создания: Дек 10 2021 г., 07:50
+-- Версия сервера: 8.0.18
+-- Версия PHP: 7.3.12
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- База данных: `storage2`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `buying`
+--
+
+DROP TABLE IF EXISTS `buying`;
+CREATE TABLE IF NOT EXISTS `buying` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `product_store` int(11) NOT NULL,
+  `quantity` int(11) DEFAULT NULL,
+  `client` int(11) NOT NULL,
+  `worker` int(11) NOT NULL,
+  `date` date DEFAULT NULL,
+  `price` decimal(8,2) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id_UNIQUE` (`id`),
+  KEY `index3` (`product_store`),
+  KEY `index4` (`client`),
+  KEY `index5` (`worker`)
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `buying`
+--
+
+INSERT INTO `buying` (`id`, `product_store`, `quantity`, `client`, `worker`, `date`, `price`) VALUES
+(4, 8, 45, 4, 3, '2021-12-11', '1664.55'),
+(5, 10, 24, 4, 4, '2021-12-11', '585.60'),
+(6, 18, 44, 4, 4, '2021-12-14', '21251.56'),
+(7, 20, 13, 4, 5, '2021-12-14', '16185.00');
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `client`
+--
+
+DROP TABLE IF EXISTS `client`;
+CREATE TABLE IF NOT EXISTS `client` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(45) NOT NULL,
+  `owner_fio` varchar(255) NOT NULL,
+  `address` varchar(255) NOT NULL,
+  `post_index` int(11) NOT NULL,
+  `phone` bigint(11) NOT NULL,
+  `email` varchar(45) NOT NULL,
+  `Buyer_Saler` bit(1) NOT NULL,
+  `notes` text,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id_UNIQUE` (`id`),
+  UNIQUE KEY `name_UNIQUE` (`name`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `client`
+--
+
+INSERT INTO `client` (`id`, `name`, `owner_fio`, `address`, `post_index`, `phone`, `email`, `Buyer_Saler`, `notes`) VALUES
+(4, 'ООО МегаОпт РФ', 'Валерьев Артем Николаевич', 'г. Самара ул. 22 Партсъезда 45, офис 301', 443022, 89379971822, 'megaoptrf63@yandex.ru', b'1', ''),
+(5, 'ООО Авангард', 'Котова Наталья Сергеевна', 'Куйбышевская улица, 54А, в селе Кинель-Черкассы, Самарской области:', 446350, 82993871412, 'avanguard53@rambler.ru', b'0', ''),
+(6, 'ИП Федулов', 'Федулов Николай Димитриевич', '​Черемшанская, 250, 15а микрорайон, Кировский район, Самара', 443098, 88469580026, 'crystal31@mail.ru', b'0', '');
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `product_info`
+--
+
+DROP TABLE IF EXISTS `product_info`;
+CREATE TABLE IF NOT EXISTS `product_info` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `product_type` int(11) NOT NULL,
+  `name` varchar(45) NOT NULL,
+  `brand` varchar(45) NOT NULL,
+  `description` varchar(45) DEFAULT NULL,
+  `cost` decimal(8,2) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id_UNIQUE` (`id`),
+  KEY `index2` (`product_type`)
+) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `product_info`
+--
+
+INSERT INTO `product_info` (`id`, `product_type`, `name`, `brand`, `description`, `cost`) VALUES
+(9, 11, 'Хлеб', 'Бабаевский', 'Просто хлеб', '36.99'),
+(10, 11, 'Шоколад', 'Бабаевский', 'Темный', '139.45'),
+(11, 11, 'Вода минеральная', 'Рамено', '', '24.40'),
+(12, 11, 'Чай', 'Greenfield', '', '73.99'),
+(13, 14, 'Стиральная машина', 'Bosch', '', '24990.00'),
+(14, 14, 'Мультиварка', 'Polaris', '', '7499.25'),
+(15, 12, 'Лопата', 'Советская', 'Штыковая', '89.50'),
+(16, 12, 'Ведро', 'Progress', 'Металлическое, с ручкой', '578.99'),
+(17, 17, 'Труба П25', 'Haiba', 'Полипропиленовая', '399.99'),
+(18, 17, 'Труба CТ32', 'Haiba', 'Полипропилен-стекловолокно', '482.99'),
+(19, 17, 'Смеситель', 'Haiba', '', '1488.99'),
+(20, 16, 'Краска Вишневая', 'Haiba', 'Эмульсионная', '1245.00'),
+(21, 16, 'Цемент', 'Rosa', 'Сухая смесь', '2560.00'),
+(22, 15, 'DEXP-3352', 'Dexp', 'Игровой компьютер', '44860.50'),
+(23, 13, 'Чистящий Порошок', 'Пемолюкс', 'для мытья посуды', '158.99');
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `product_store`
+--
+
+DROP TABLE IF EXISTS `product_store`;
+CREATE TABLE IF NOT EXISTS `product_store` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `product_info` int(11) NOT NULL,
+  `quantity` int(11) DEFAULT NULL,
+  `is_supplied` bit(1) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id_UNIQUE` (`id`),
+  UNIQUE KEY `product_info_UNIQUE` (`product_info`),
+  KEY `index4` (`product_info`)
+) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `product_store`
+--
+
+INSERT INTO `product_store` (`id`, `product_info`, `quantity`, `is_supplied`) VALUES
+(8, 9, 128, b'1'),
+(9, 10, 64, b'1'),
+(10, 11, 256, b'1'),
+(11, 12, 128, b'1'),
+(12, 13, 4, b'0'),
+(13, 14, 3, b'0'),
+(15, 15, 76, b'0'),
+(16, 16, 54, b'1'),
+(17, 17, 48, b'1'),
+(18, 18, 56, b'1'),
+(19, 19, 14, b'1'),
+(20, 20, 44, b'1'),
+(21, 21, 18, b'1'),
+(22, 22, 3, b'0'),
+(23, 23, 18, b'1');
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `product_type`
+--
+
+DROP TABLE IF EXISTS `product_type`;
+CREATE TABLE IF NOT EXISTS `product_type` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `type` varchar(45) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id_UNIQUE` (`id`),
+  UNIQUE KEY `Type_UNIQUE` (`type`)
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `product_type`
+--
+
+INSERT INTO `product_type` (`id`, `type`) VALUES
+(14, 'Бытовая электроника'),
+(12, 'Предмет быта'),
+(11, 'Продовольствие'),
+(17, 'Сантехника'),
+(16, 'Строительные материалы'),
+(15, 'Технически сложное устройство'),
+(13, 'Химия');
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `sale`
+--
+
+DROP TABLE IF EXISTS `sale`;
+CREATE TABLE IF NOT EXISTS `sale` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `product_store` int(11) NOT NULL,
+  `quantity` int(11) DEFAULT NULL,
+  `client` int(11) NOT NULL,
+  `worker` int(11) NOT NULL,
+  `date` date DEFAULT NULL,
+  `price` decimal(8,2) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id_UNIQUE` (`id`),
+  KEY `index3` (`product_store`),
+  KEY `index4` (`client`),
+  KEY `index5` (`worker`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `sale`
+--
+
+INSERT INTO `sale` (`id`, `product_store`, `quantity`, `client`, `worker`, `date`, `price`) VALUES
+(2, 8, 20, 6, 3, '2021-12-10', '739.80'),
+(5, 22, 1, 5, 4, '2021-12-12', '44860.50');
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `worker`
+--
+
+DROP TABLE IF EXISTS `worker`;
+CREATE TABLE IF NOT EXISTS `worker` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `fio` varchar(255) NOT NULL,
+  `role` varchar(45) NOT NULL,
+  `phone` bigint(11) DEFAULT NULL,
+  `email` varchar(45) DEFAULT NULL,
+  `is_internal` bit(1) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id_UNIQUE` (`id`),
+  UNIQUE KEY `phone_UNIQUE` (`phone`),
+  UNIQUE KEY `email_UNIQUE` (`email`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `worker`
+--
+
+INSERT INTO `worker` (`id`, `fio`, `role`, `phone`, `email`, `is_internal`) VALUES
+(3, 'Николаев Николай Николаевич', 'Главный менеджер', 89373841628, '', b'1'),
+(4, 'Авдеева Елизавета Федоровна', 'менеджер', 89277741514, 'liza1411@gmail.com', b'1'),
+(5, 'Ерасов Альберт Иванович', 'Товаровед', 89373389195, 'jakut1984@yandex.ru', b'0');
+
+--
+-- Ограничения внешнего ключа сохраненных таблиц
+--
+
+--
+-- Ограничения внешнего ключа таблицы `buying`
+--
+ALTER TABLE `buying`
+  ADD CONSTRAINT `ff` FOREIGN KEY (`product_store`) REFERENCES `product_store` (`id`),
+  ADD CONSTRAINT `ff1` FOREIGN KEY (`client`) REFERENCES `client` (`id`),
+  ADD CONSTRAINT `ff2` FOREIGN KEY (`worker`) REFERENCES `worker` (`id`);
+
+--
+-- Ограничения внешнего ключа таблицы `product_info`
+--
+ALTER TABLE `product_info`
+  ADD CONSTRAINT `F00` FOREIGN KEY (`product_type`) REFERENCES `product_type` (`id`);
+
+--
+-- Ограничения внешнего ключа таблицы `product_store`
+--
+ALTER TABLE `product_store`
+  ADD CONSTRAINT `ffff` FOREIGN KEY (`product_info`) REFERENCES `product_info` (`id`);
+
+--
+-- Ограничения внешнего ключа таблицы `sale`
+--
+ALTER TABLE `sale`
+  ADD CONSTRAINT `qq0` FOREIGN KEY (`client`) REFERENCES `client` (`id`),
+  ADD CONSTRAINT `qq1` FOREIGN KEY (`product_store`) REFERENCES `product_store` (`id`),
+  ADD CONSTRAINT `qq2` FOREIGN KEY (`worker`) REFERENCES `worker` (`id`);
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;</value>
+  </data>
+</root>
